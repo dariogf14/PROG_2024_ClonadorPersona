@@ -27,7 +27,7 @@ public class ClonadorPersona {
 				personas.add(newPersona);
 			}
 			catch (Exception e){
-				System.err.println("Error al crear el clon" + e.getMessage());
+				System.out.println("Error al crear el clon" + e.getMessage());
 			}
 
 		}
