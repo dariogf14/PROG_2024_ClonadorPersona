@@ -8,8 +8,8 @@ public class Persona {
 	
 	private String Nombre;
 	private int edad;
-	private float peso;
-	private float altura;
+	private double peso;
+	private double altura;
 	
 	
 	/**
@@ -19,7 +19,7 @@ public class Persona {
 	 * @param peso
 	 * @param altura
 	 */
-	public Persona(String nombre, int edad, float peso, float altura) {
+	public Persona(String nombre, int edad, double peso, double altura) {
 		super();
 		Nombre = nombre;
 		this.edad = edad;
@@ -63,7 +63,7 @@ public class Persona {
 	 * getter del peso
 	 * @return el peso de la persona
 	 */
-	public float getPeso() {
+	public double getPeso() {
 		return peso;
 	}
 
@@ -79,7 +79,7 @@ public class Persona {
 	 * getter de la altura
 	 * @return la altura de la persona
 	 */
-	public float getAltura() {
+	public double getAltura() {
 		return altura;
 	}
 
